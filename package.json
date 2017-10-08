@@ -2,8 +2,10 @@
   "name": "mynode",
   "version": "0.0.1",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "express": "latest"
+  },
   "scripts": {
-    "start": "node main.js"
+    "start": "node express.js"
   }
 }
